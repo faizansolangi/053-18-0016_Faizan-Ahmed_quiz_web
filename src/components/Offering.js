@@ -15,6 +15,12 @@ import Imagetext6 from '../assets/images/cardtext6.png';
 import UseCaseImage from '../assets/images/play-use-cases.svg.png';
 import DarkArrowImage from '../assets/images/span.png';
 import DivImg14 from '../assets/images/div (14).png';
+import BenefitImg1 from '../assets/images/benefitImg1.png';
+import BenefitImg2 from '../assets/images/benefitImg2.png';
+import BenefitImg3 from '../assets/images/benefitImg3.png';
+import BenefitImg4 from '../assets/images/benefitImg4.png';
+import Icons from '../assets/images/icons.png';
+
 const Offering = () => {
   return (
     <>
@@ -164,6 +170,85 @@ const Offering = () => {
     
             </div>    
         </div>
+
+        <div className='welcome' style={{backgroundColor:'#FFF0EC', paddingTop:'30px'}}>
+            <h2 style={{textAlign:'center'}}> B E N E F I T S </h2>
+            <div className="row" style={{paddingTop:'30px', paddingBottom:'40px'}}>
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{ paddingLeft:'100px'}}> 
+                <h1 style={{paddingLeft:'80px'}}> Create content in </h1>
+                <h1 style={{paddingLeft:'80px'}}> minutes, not months </h1>
+                <p style={{color:'gray', paddingLeft:'80px'}}> Create original content that actually sounds </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> like your company wrote it. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> Writer is the only AI writing platform that can be </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> trained on your own best-performing content </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> and brand guidelines. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> It's <b style={{backgroundColor:'#9BFFE1', color:'black'}}> your own AI,</b> specifically tuned for your team’s </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> unique use cases. </p>
+            </div>
+        
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{textAlign:'center'}}>
+                <img src={BenefitImg1} alt='benefitimage' width={480} height={430}/>    
+            </div>
+            </div>
+
+        <div className="row" style={{paddingTop:'30px', paddingBottom:'40px'}}>
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{ paddingLeft:'100px', marginTop:'40px'}}> 
+                <h1 style={{paddingLeft:'80px'}}> Build a brand that is </h1>
+                <h1 style={{paddingLeft:'80px'}}> consistent — everywhere </h1>
+                <p style={{color:'gray', paddingLeft:'80px'}}> Generic ad copy. Outdated messaging on your </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> website. Poorly-written docs. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> All of this can kill a buyer’s journey — and your </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> brand. Writer gives you all the tools you need to </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> <b style={{backgroundColor:'#9BFFE1', color:'black'}}> build a consistent brand,</b> across every customer </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> touchpoint, and do it efficiently. </p>
+            </div>
+        
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{textAlign:'center'}}>
+                <img src={BenefitImg2} alt='benefitimage' width={480} height={430}/>    
+            </div>
+        </div>
+
+        <div className="row" style={{paddingTop:'30px', paddingBottom:'40px'}}>
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{ paddingLeft:'100px', marginTop:'40px'}}> 
+                <h1 style={{paddingLeft:'80px'}}> Drive revenue, not </h1>
+                <h1 style={{paddingLeft:'80px'}}> review cycles </h1>
+                <p style={{color:'gray', paddingLeft:'80px'}}> ‘Let’s be a media company,’ they say — but </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> without the required headcount or budget. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> Do it anyway. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> <b style={{backgroundColor:'#9BFFE1', color:'black'}}> 10x the productivity</b> of your best writers, and  </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> make it so everyone else in the company can </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> contribute on-brand content, too — without the </p>                
+                <p style={{color:'gray', paddingLeft:'80px'}}> rewrites. </p>
+
+            </div>
+        
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{textAlign:'center'}}>
+                <img src={BenefitImg3} alt='benefitimage' width={480} height={430}/>    
+            </div>
+        </div>
+
+        <div className="row" style={{paddingTop:'30px', paddingBottom:'40px'}}>
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{ paddingLeft:'100px', marginTop:'40px'}}> 
+                <h1 style={{paddingLeft:'80px'}}> Be secure with </h1>
+                <h1 style={{paddingLeft:'80px'}}> enterprise features </h1>
+                <p style={{color:'gray', paddingLeft:'80px'}}> What you write will never make it into our models. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> Your data is analyzed transiently, so what you </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> edit or generate isn’t collected or used by Writer. </p>
+                <p style={{color:'gray', paddingLeft:'80px'}}> Writer is the only AI writing platform that both </p>                
+                <p style={{color:'gray', paddingLeft:'80px'}}> users and infosec teams love. </p>
+                <img src={Icons} alt='benefitimage' width={480} height={80} style={{paddingLeft:'65px'}}/>
+            </div>
+        
+            <div className="col col-sm-12 col-md-6 col-lg-6" style={{textAlign:'center'}}>
+                <img src={BenefitImg4} alt='benefitimage' width={480} height={430}/>    
+            </div>
+        </div>
+
+        <div className="" style={{backgroundColor:'#FFF0EC', paddingTop:'30px', paddingBottom:'10px'}}>
+
+        </div>
+
+    </div>
     </>
   );
 }
